@@ -1,4 +1,6 @@
-
+html {
+    font-size: 13px;
+}
 
 body {
     --color-text: #383838;
@@ -9,10 +11,36 @@ body {
 }
 
 .page-header {
+    display: flex;
+    justify-content: space-between;
     background: #001b42;
-    padding: 4em;
+    padding: 4rem;
+}
+
+.page-header__item {
+    align-self: center;
 }
 
 .logo {
     width: 150px;
 }
+
+.btn {
+    display: inline-block;
+    padding: 0.6rem 1rem;
+    font-size: 1.2rem;
+    color: white;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+.btn--secondary {
+    background: transparent;
+    border: 1px solid white;
+}
+
+.btn--secondary:hover {
+    background-color: rgba(255,255,255,0.1);
+}
+
+
