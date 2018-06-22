@@ -1,2 +1,4 @@
 # ignore Sketch design files
 *.sketch
+source/*
+GridLayoutMotion-master/*
