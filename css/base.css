@@ -1,0 +1,18 @@
+
+
+body {
+    --color-text: #383838;
+    --color-bg: #ededed;
+
+    color: var(--color-text);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.page-header {
+    background: #001b42;
+    padding: 4em;
+}
+
+.logo {
+    width: 150px;
+}
